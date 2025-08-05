@@ -41,7 +41,7 @@ async def start_command(client: Client, message: Message):
     await message.reply_photo(
         photo=SUNRISES_PIC,  
         caption=(
-            "**👋 Welcome to PixelPulseBot!**\n\n"
+            "**👋 Welcome to VideoCompressorplusBot!**\n\n"
             "🔹 Send any video under **300MB** for enhance\n"
             "🔹 Send any video under **2GB** for compress\n"
             "🔹 Reply with `/enhance` to improve sharpness, color, and quality.\n"
@@ -72,14 +72,14 @@ async def callback_handler(client, callback_query):
     data = callback_query.data
     if data == "about":
         await callback_query.message.edit_text(
-            "**🎩 About PixelPulseBot[EnhanceBot]**\n\n"
+            "**🎩 About VideoCompressorplusBot[EnhanceBot]**\n\n"
             "EnhanceBot uses **FFmpeg** to:\n"
             "🔹 Upscale videos to 1080p\n"
             "🔹 Denoise and sharpen\n"
             "🔹 Boost brightness and saturation\n"
             "🔹 Compress video by selected size\n"
             "🔹 Keep audio and subtitles intact\n\n"
-            "Built by: @Sunrises_24\nPowered by: Pyrogram + FFmpeg",
+            "Built by: @HARMANXKING \nPowered by: Pyrogram + FFmpeg",
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("🔙 Back", callback_data="start")]
             ])
@@ -107,7 +107,7 @@ async def callback_handler(client, callback_query):
 @Client.on_message(filters.command("about"))
 async def about_command(client: Client, message: Message):
     await message.reply_text(
-        "**🎩 About PixelPulseBot**\n\n"
+        "**🎩 About VideoCompressorplusBot**\n\n"
         "PixelPulseBot is a Telegram bot that enhances and compresses videos using advanced FFmpeg filters.\n\n"
         "**Key Features:**\n"
         "✅ Upscale videos to 1080p\n"
@@ -116,9 +116,9 @@ async def about_command(client: Client, message: Message):
         "📉 File compression based on user-selected %\n"
         "🔊 Retains original audio & subtitles\n\n"
         "🔧 Powered by FFmpeg & Pyrogram\n"
-        "🧑‍💻 Developed by: @Sunrises_24\n"
-        "📢 Updates: @Sunrises24BotUpdates\n"
-        "💬 Support: @Sunrises24BotSupport"
+        "🧑‍💻 Developed by: @HARMANXKING \n"
+        "📢 Updates: @VideoCompressorplusBot\n"
+        "💬 Support: @HARMANXKING \n"
     )
 
 @Client.on_message(filters.command("ping"))
@@ -130,8 +130,8 @@ async def ping(bot, msg: Message):
     await response.edit_text(
         f"🏓 **Pong!**\n"
         f"📶 **Response Time:** `{duration:.2f} ms`\n\n"
-        "✨ Powered by PixelPulseBot\n"
-        "👤 Credits: @Sunrises_24"
+        "✨ Powered by VIDEOCOMPRESSBot\n"
+        "👤 Credits: @HARMANXKING"
     )
 
 # 🟢 /stats Command
