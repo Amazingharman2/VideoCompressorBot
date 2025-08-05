@@ -7,7 +7,7 @@ id_pattern = re.compile(r'^.\d+$')
 
 
 API_ID = os.environ.get("API_ID", "23991460")
-API_HASH = os.environ.get("API_HASH", "482b9c11ca28fdff8f0d3f9223ef0ac1)
+API_HASH = os.environ.get("API_HASH", "482b9c11ca28fdff8f0d3f9223ef0ac1")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7766638158:AAFKkI3Tm5WDac-1uFDBztMqq1QzRHn64cc")
 ADMIN = int(os.environ.get("ADMIN", '2052400282'))
 #ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
