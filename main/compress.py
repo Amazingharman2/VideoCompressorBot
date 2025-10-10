@@ -87,7 +87,7 @@ async def compress_video(client: Client, message: Message):
         "ffmpeg", "-i", input_path,
         "-b:v", str(video_bitrate),
         "-b:a", str(audio_bitrate),
-        "-c:v", "libx264", "-preset", "fast",
+        "-c:v", "libx264", "-preset", "ultrafast",
         "-c:a", "aac", "-movflags", "+faststart",
         "-y", output_path
     ]
