@@ -6,9 +6,9 @@ import os
 id_pattern = re.compile(r'^.\d+$')
 
 
-API_ID = os.environ.get("API_ID", "23991460")
-API_HASH = os.environ.get("API_HASH", "482b9c11ca28fdff8f0d3f9223ef0ac1")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7766638158:AAFKkI3Tm5WDac-1uFDBztMqq1QzRHn64cc")
+API_ID = os.environ.get("API_ID", "22413321")
+API_HASH = os.environ.get("API_HASH", "19dc6a4da93120d1af60afd778559d55")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7766638158:AAHj5jPc2PhiNUS4UiXooRrMLRSp833YSMo")
 ADMIN = int(os.environ.get("ADMIN", '2052400282'))
 #ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 SUNRISES_PIC= "https://envs.sh/EMq.jpeg" # Replace with your Telegraph link - Start Pic
